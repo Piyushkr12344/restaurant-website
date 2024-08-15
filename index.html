@@ -1,0 +1,90 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Restaurant</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#reservations">Reservations</a></li>
+            <li><a href="#events">Events</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h1>Welcome to The Restaurant</h1>
+        <p>Experience the best dining experience in town!</p>
+        <button>Make a Reservation</button>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu">
+        <h1>Our Menu</h1>
+        <ul>
+            <li>
+                <h2>Appetizers</h2>
+                <ul>
+                    <li>Bruschetta ($8)</li>
+                    <li>Calamari ($12)</li>
+                </ul>
+            </li>
+            <li>
+                <h2>Entrees</h2>
+                <ul>
+                    <li>Grilled Chicken ($18)</li>
+                    <li>Pan-Seared Salmon ($25)</li>
+                </ul>
+            </li>
+            <li>
+                <h2>Desserts</h2>
+                <ul>
+                    <li>Chocolate Cake ($8)</li>
+                    <li>Cheesecake ($10)</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Reservations Section -->
+    <section id="reservations">
+        <h1>Make a Reservation</h1>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date"><br><br>
+            <label for="time">Time:</label>
+            <input type="time" id="time" name="time"><br><br>
+            <label for="party-size">Party Size:</label>
+            <input type="number" id="party-size" name="party-size"><br><br>
+            <input type="submit" value="Make Reservation">
+        </form>
+    </section>
+
+    <!-- Events Section -->
+    <section id="events">
+        <h1>Upcoming Events</h1>
+        <ul>
+            <li>
+                <h2>Wine Tasting Night</h2>
+                <p>Friday, March 12th, 7pm-10pm</p>
+            </li>
+            <li>
+                <h2>Live Music Night</h2>
+                <p>Saturday, March 20th, 8pm-11pm</p>
+            </li>
+        </ul>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
